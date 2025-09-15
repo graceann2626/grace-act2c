@@ -64,6 +64,11 @@ public class calculator extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         t1.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
+        t1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                t1ActionPerformed(evt);
+            }
+        });
 
         jButton14.setText("MC");
 
@@ -475,6 +480,10 @@ public class calculator extends javax.swing.JFrame {
         operator=null;
 
     }//GEN-LAST:event_bequalActionPerformed
+
+    private void t1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_t1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_t1ActionPerformed
 
     /**
      * @param args the command line arguments
